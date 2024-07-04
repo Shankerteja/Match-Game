@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.tab-item {
+  list-style-type: none;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+.tab-name {
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .tab-name {
+    font-size: 24px;
+  }
+}
+.add-style {
+  border-bottom: 2px solid white;
+}

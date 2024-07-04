@@ -1,0 +1,23 @@
+.list-image {
+  list-style-type: none;
+  width: 100%;
+}
+.eachimage {
+  list-style-type: none;
+  width: 25%;
+  margin: 5px;
+}
+@media screen and (min-width: 575px) {
+  .eachimage{
+    width: 20%;
+  }
+  .list-image{
+    cursor: pointer;
+  }
+
+  
+}
+.imagebutton {
+  background-color: transparent;
+  border-width: 0px;
+}
